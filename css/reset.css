@@ -41,8 +41,9 @@ aside, nav, footer, header, section, main {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
-	font-weight: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
 }
 
 ul, ul li {
