@@ -127,13 +127,6 @@ body{
 	font-size: 20px;
 	line-height: 27px;
 	color: #FFFFFF;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-}
-.start:hover{
-	color: rgba(100, 88, 80, 0.864);
-	transition: color 0.2;
 }
 .video {
 	width: 217px;
@@ -143,11 +136,7 @@ body{
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 27px;
-	/* #FFFFFF */
 	color: #FFFFFF;
-	flex: none;
-	order: 1;
-	flex-grow: 0;
 }
 .header__img{
 	padding-bottom: 200px;
@@ -272,12 +261,109 @@ p{
 	padding-left: 420px;
 }
 
-
-.col-md-4{
-	text-align: center
+/* Footer */
+.footer__row {
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
 }
 
+.left1 {
+	padding-left: 32px;
+}
+.text__footer-logo {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	color: #3A68B8;
+	margin-bottom: 10px;
+	margin-top: 8px;
 
+}
+.contacts {
+	font-family: 'Circular Std';
+	font-weight: 500;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+.text__footer{
+	font-family: 'Circular Std';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 37px;
+	opacity: 0.6;
+}
+.text__footer{
+	padding-right: 32px;
+}
+.left2__title {
+	font-family: 'Circular Std';
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.footer__title{
+	padding-top: 10px;
+	padding-right: 80px;
+	padding-bottom: 30px;
+
+	font-family: 'Circular Std';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+li a{
+	font-family: 'Circular Std';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 14px;
+	color: #FFFFFF;
+	opacity: 0.6;
+	text-decoration: none;
+}
+.footer-text {
+	margin-bottom: 20px;
+}
+li a:hover{
+	color: rgba(100, 88, 80, 0.864);
+	transition: color 0.2;
+	text-decoration: none;
+}
+.footer {
+	padding-bottom: 150px;
+	padding-top: 100px;
+}
+.text__footer-right{
+	font-family: 'Circular Std';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 14px;
+	color: #FFFFFF;
+	opacity: 0.6;
+}
+.footer__site {
+	padding-top: 30px;
+	font-family: 'Circular Std';
+	font-style: normal;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+.social__icons-footer {
+	padding-top: 25px;
+}
+.social__icon {
+	padding-right: 25px;
+}
+
+.language {
+	padding-top: 40px;
+}
 
 
 
